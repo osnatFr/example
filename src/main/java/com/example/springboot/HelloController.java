@@ -10,7 +10,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Hellow All" + TextUtils.getText();
+		return "Hellow All, " + TextUtils.getText();
 	}
 
 }
